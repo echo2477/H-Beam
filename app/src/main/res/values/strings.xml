@@ -13,5 +13,5 @@
     <string name="H_Beam_400">400 X 400 X 13 X 21 mm - 12 m</string>
     <string name="Pembulatan">Pembulatan ?</string>
     <string name="Hitung">Hitung Berat</string>
-    <string name="Total_Berat_H_Beam">Total Berat H Beam : % </string>
+    <string name="Total_Berat_H_Beam">Total Berat H Beam : %s </string>
 </resources>
