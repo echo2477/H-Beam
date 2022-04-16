@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Quantity_Baja"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Quantity_Baja"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/service_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Pilih_Type_H_Beam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Quantity_Baja" />
+
+    <RadioGroup
+        android:id="@+id/Type_H_Beam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/H_Beam_100"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_question">
+
+        <RadioButton
+            android:id="@+id/H_Beam_100"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/H_Beam_100"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_125"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_125"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_150"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_150"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_175"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_175"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_200"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_200"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_250"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_250"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_300"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_300"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_350"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_350"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/H_Beam_400"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/H_Beam_400"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/tombol_pembulatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:checked="true"
+        android:minHeight="48dp"
+        android:text="@string/Pembulatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Type_H_Beam" />
+
+    <Button
+        android:id="@+id/Hitung_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Hitung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tombol_pembulatan" />
+
+    <TextView
+        android:id="@+id/BeratHBeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Total_Berat_H_Beam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Hitung_button"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Total Berat H Beam: 10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

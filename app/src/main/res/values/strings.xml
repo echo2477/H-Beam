@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Baja H Beam</string>
+    <string name="Quantity_Baja">Quantity H Beam</string>
+    <string name="Pilih_Type_H_Beam">Pilih Type H Beam?</string>
+    <string name="H_Beam_100">100 X 100 X 6 X 8 mm - 12 m</string>
+    <string name="H_Beam_125">125 X 125 X 6.5 X 9 mm - 12 m</string>
+    <string name="H_Beam_150">150 X 150 X 7 X 10 mm - 12 m</string>
+    <string name="H_Beam_175">175 X 175 X 7 X 11 mm - 12 m</string>
+    <string name="H_Beam_200">200 X 200 X 8 X 12 mm - 12 m</string>
+    <string name="H_Beam_250">250 X 250 X 9 X 14 mm - 12 m</string>
+    <string name="H_Beam_300">300 X 300 X 10 X 15 mm - 12 m</string>
+    <string name="H_Beam_350">350 X 350 X 12 X 19 mm - 12 m</string>
+    <string name="H_Beam_400">400 X 400 X 13 X 21 mm - 12 m</string>
+    <string name="Pembulatan">Pembulatan ?</string>
+    <string name="Hitung">Hitung Berat</string>
+    <string name="Total_Berat_H_Beam">Total Berat H Beam : % </string>
+</resources>
